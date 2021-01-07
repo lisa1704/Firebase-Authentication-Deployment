@@ -12,12 +12,12 @@ firebase init hosting
 /////////////////For hosting:
 Please select an option: Use an existing project
 What do you want to use as your public directory? build
-What do you want to use as your public directory? build
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
 Set up automatic builds and deploys with GitHub? No
 File build/index.html already exists. Overwrite? No
 
-firebase use fir-auth-development-8cddc
+firebase use **projectID**
 firebase deploy
 
 
-https://fir-auth-development-8cddc.web.app/
+

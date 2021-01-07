@@ -42,11 +42,11 @@ const Login=()=>{
                     <Form onSubmit={handleSubmit}>
                         <Form.Group id='email'>
                             <Form.Label>Email</Form.Label>
-                            <Form.Control ref={emailRef}type='text' required/>
+                            <Form.Control ref={emailRef} type='email' required/>
                         </Form.Group>
                         <Form.Group id='password'>
                             <Form.Label>Password</Form.Label>
-                            <Form.Control ref={passwordRef}type='password' required/>
+                            <Form.Control ref={passwordRef} type='password' required/>
                         </Form.Group>
                         <Button disabled={loading} className='w-100' type="submit">Log In</Button>
                     </Form>

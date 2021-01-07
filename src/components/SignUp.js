@@ -47,7 +47,7 @@ const SignUp=()=>{
                         </Form.Group>
                         <Form.Group id='email'>
                             <Form.Label>Email</Form.Label>
-                            <Form.Control ref={emailRef}type='text' required/>
+                            <Form.Control ref={emailRef}type='email' required/>
                         </Form.Group>
                         <Form.Group id='password'>
                             <Form.Label>Password</Form.Label>
